@@ -22,8 +22,8 @@ It allows you to load, explore, and interact with 3D models directly in the brow
 
 ## 📸 Preview
 
-![3D Preview Example](https://threejs.org/examples/screenshots/webgl_loader_gltf.jpg)
-*(demo image — replace with a screenshot of your own model once available)*
+<img width="788" height="492" alt="image" src="https://github.com/user-attachments/assets/db834d6f-ab42-4867-ba32-afc438f0b485" />
+<img width="180" height="203" alt="image" src="https://github.com/user-attachments/assets/95bca5b0-1c5d-4566-8d50-c77d183762a4" />
 
 ---
 
@@ -123,3 +123,4 @@ For commercial or extended use, please contact the author.
 ---
 
 👉 The only missing piece is the **actual video link or file**. Do you want me to show you how to **record your screen + upload to YouTube (unlisted)**, so you can just paste the link in?
+
