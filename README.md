@@ -31,12 +31,6 @@ It allows you to load, explore, and interact with 3D models directly in the brow
 
 See the 3D viewer in action:
 
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
-
-*(Click the thumbnail to watch on YouTube)*
-
-➡️ If you prefer hosting locally, you can also place a video in your repo (e.g. `/demo/demo.mp4`) and embed it like this:
-
 ```markdown
 <video src="demo/demo.mp4" controls width="600"></video>
 ```
@@ -123,4 +117,5 @@ For commercial or extended use, please contact the author.
 ---
 
 👉 The only missing piece is the **actual video link or file**. Do you want me to show you how to **record your screen + upload to YouTube (unlisted)**, so you can just paste the link in?
+
 
