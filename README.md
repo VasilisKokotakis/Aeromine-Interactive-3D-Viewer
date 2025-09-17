@@ -1,92 +1,125 @@
-Instructions:
 
-1st Step: I have to create index.html
-2nd Step: I have to create main.js
-3rd Step: I have to initiallize json package
+---
 
-    from project directory:
-        1. npm init -y
-        2. npm install vite --save-dev
-        3. npm install three
+# 🚀 3D Model Viewer (Aeromine Project)
 
-In json that will appear add:
+This project is a **web-based 3D model viewer** built with [Three.js](https://threejs.org/) and [Vite](https://vitejs.dev/).
+It allows you to load, explore, and interact with 3D models directly in the browser — no additional software required.
 
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
-}
+👉 Developed as a client project for **[Aeromine](https://www.aeromine.com/)**.
 
+---
 
-4th Step: When im ready to build i have to run
-    - npm run dev
+## ✨ Features
 
-5th Step: Open the link from terminal and see the results
+* 🔄 **Interactive controls** — rotate, zoom, and pan around the model with smooth orbit controls.
+* 💡 **Realistic lighting** — ambient and directional light for clear visibility.
+* 📦 **GLTF/GLB model support** — optimized for modern 3D formats.
+* 🎯 **Auto-scaling & centering** — models are automatically resized and centered in the scene.
+* ⚡ **Fast & lightweight** — powered by Vite for modern, blazing-fast builds.
 
-*The models that are going to be loaded, should be in a folder with name public.*
-Correct path: 
-  - "C:\Users\Working Station\Documents\Aeromine\public\Models\Porsche\scene.gltf"
+---
 
+## 📸 Preview
 
-============================================================================================
+![3D Preview Example](https://threejs.org/examples/screenshots/webgl_loader_gltf.jpg)
+*(demo image — replace with a screenshot of your own model once available)*
 
-Production steps:
+---
 
-1st step: npm run build
+## 🎥 Demo Video
 
-2nd step:
+See the 3D viewer in action:
 
-  - git init
-  - git add .
-  - git commit -m "Initial commit"
+[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
 
-3rd step:
+*(Click the thumbnail to watch on YouTube)*
 
-  - git remote add origin https://github.com/yourusername/your-repo-name.git
-  - git branch -M main
-  - git push -u origin main
+➡️ If you prefer hosting locally, you can also place a video in your repo (e.g. `/demo/demo.mp4`) and embed it like this:
 
+```markdown
+<video src="demo/demo.mp4" controls width="600"></video>
+```
 
-4th step: 
+---
 
-  - https://vercel.com/vasilis-projects-eeb3f847
-  - Build Command: npx vite build
-  - Output Directory: dist
+## 🛠️ Tech Stack
 
-  Locally: npm install vite --save-dev
+* **Three.js** → 3D rendering engine
+* **GLTFLoader** → loads 3D assets
+* **OrbitControls** → user-friendly navigation
+* **Vite** → modern development & build tool
 
-5th step:
+---
 
- Create vercel.json
+## 📂 Project Structure
 
- {
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/" }
-  ]
-}
+```
+├── index.html       # Main HTML file
+├── main.js          # JavaScript entry point (Three.js logic)
+├── package.json     # Dependencies & scripts
+├── public/          # Static assets (models, textures, etc.)
+│   └── Models/
+│       └── dino/scene.gltf
+└── ...
+```
 
-and update package.json with:
+---
 
-"engines": {
-  "node": ">=18.x"
-}
+## 🚀 Getting Started
 
-6th step:
+### 1. Clone the repo
 
-git add .
-git commit -m "Fix Vercel deploy issues"
-git push
+```bash
+git clone https://github.com/yourusername/3DRepresentation-Aeromine-Project.git
+cd 3DRepresentation-Aeromine-Project
+```
 
-7th step:
+### 2. Install dependencies
 
-Deploy from https://vercel.com/vasilis-projects-eeb3f847
+```bash
+npm install
+```
 
+### 3. Run in development mode
 
+```bash
+npm run dev
+```
 
-# Aeromine-Interactive-3D-Viewer
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+The production-ready files will be generated in the `dist/` folder.
+
+---
+
+## 📖 Usage
+
+* Drag with your **mouse** to rotate the model.
+* Scroll to **zoom in/out**.
+* Right-click + drag to **pan the view**.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Vasileios** for **Aeromine** ✨
+
+📧 Contact: https://www.linkedin.com/in/vasilis-kokotakis/
+
+---
+
+## 📜 License
+
+This project was developed for **Aeromine** and is provided as reference code.
+For commercial or extended use, please contact the author.
+
+---
+
+👉 The only missing piece is the **actual video link or file**. Do you want me to show you how to **record your screen + upload to YouTube (unlisted)**, so you can just paste the link in?
