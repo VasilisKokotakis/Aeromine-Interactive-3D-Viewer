@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Model Viewer</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    canvas { display: block; }
+
+    /* (Optional) button container styles - not in use */
+    #button-container {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .view-button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .view-button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Info Panel - currently unused */
+    #infoPanel {
+      position: fixed;
+      top: 0;
+      right: -100%; /* fully hidden off-screen */
+      width: 30%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      transition: right 0.4s ease-in-out;
+    }
+
+    #closePanel {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 🚫 BUTTONS BLOCK (currently disabled) -->
+  <!--
+  <div id="button-container">
+    <button class="view-button" id="perspectiveView">Perspective</button>
+    <button class="view-button" id="floorPlanView">Top</button>
+    <button class="view-button" id="frontView">Front</button>
+    <button class="view-button" id="backView">Back</button>
+    <button class="view-button" id="leftView">Left</button>
+    <button class="view-button" id="rightView">Right</button>
+    <button class="view-button" id="bottomView">Bottom</button>
+    <button class="view-button" id="animateButton">Start Animation</button>
+    <button class="view-button" id="infoButton">Info</button>
+    <button class="view-button" id="changeBgButton">Change Background</button>
+  </div>
+  -->
+
+  <!-- 🚫 INFO PANEL (not needed now, left for future use) -->
+  <!--
+  <div id="infoPanel">
+    <button id="closePanel">✖</button>
+    <h2 id="buildingTitle">Building Name</h2>
+    <img id="buildingImage" src="" alt="Building Image" style="width:100%">
+    <p id="buildingDescription">Building details here...</p>
+  </div>
+  -->
+
+  <!-- Load main JS -->
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

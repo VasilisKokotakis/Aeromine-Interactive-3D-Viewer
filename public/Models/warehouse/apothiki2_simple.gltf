@@ -1,0 +1,31 @@
+{
+	"asset":{
+		"generator":"Khronos glTF Blender I/O v4.0.44",
+		"version":"2.0"
+	},
+	"scene":0,
+	"scenes":[
+		{
+			"name":"Scene",
+			"nodes":[
+				0
+			]
+		}
+	],
+	"nodes":[
+		{
+			"name":"test_apothiki2_blender",
+			"rotation":[
+				-0.00897157285362482,
+				0,
+				0,
+				0.9999597668647766
+			],
+			"translation":[
+				0,
+				2.4754855632781982,
+				0
+			]
+		}
+	]
+}

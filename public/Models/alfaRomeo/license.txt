@@ -1,0 +1,8 @@
+Model Information:
+* title:	AC - Alfa Romeo Giulietta QV
+* source:	https://sketchfab.com/3d-models/ac-alfa-romeo-giulietta-qv-1593b00458b14ae4a838f392a66d209d
+* author:	D3DARTM (https://sketchfab.com/D3DARTM)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
