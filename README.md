@@ -64,7 +64,7 @@ See the 3D viewer in action:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/Aeromine-Interactive-3D-Viewer.git
+git clone https://github.com/VasilisKokotakis/Aeromine-Interactive-3D-Viewer.git
 cd Aeromine-Interactive-3D-Viewer
 ```
 
@@ -116,6 +116,7 @@ For commercial or extended use, please contact the author.
 ---
 
 👉 The only missing piece is the **actual video link or file**. Do you want me to show you how to **record your screen + upload to YouTube (unlisted)**, so you can just paste the link in?
+
 
 
 
